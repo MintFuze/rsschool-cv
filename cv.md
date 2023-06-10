@@ -1,7 +1,7 @@
 # Hello World :)
 ***
 |Vadzim Yarmalitski|About me|
-|:-------------:|:-------------|
+|:-:|:-|
 | ![Vadzim](https://i.ibb.co/ZMfsrjL/Frame-6-2.png)        | I am driven by passion for my work and personal interests, which is why I have dedicated myself to the field of development with a clear goal to become a qualified front-end developer within the next four years. I don't have work experience in the professional field, but I want to study because i love making something new and beautiful
 [Telegram](https://t.me/yarmalitskiy) [Gmail](mailto:vadim801vadim@gmail.com) [Discord](https://discordapp.com/users/293689952468860930/) | My priority: **get an education in what I like to do**
 ## Skills
