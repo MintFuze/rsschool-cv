@@ -1,4 +1,4 @@
-# Hello World :)
+# Vadzim Yarmalitski
 ***
 |Vadzim Yarmalitski|About me|
 |:-:|:-|
