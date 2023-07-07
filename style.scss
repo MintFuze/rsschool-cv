@@ -445,6 +445,15 @@ background: rgba(28, 28, 28, 0.81);
   color:#FFF;
   font-size:25px;
   font-weight: 600;
+  a{
+    text-transform: uppercase;
+    color:#0075FF;
+    transition: .2s;
+  &:hover{
+
+    color:#fff;
+  }
+  }
 }
 .footer-rsschool-icon{
  .rsschool-icon{

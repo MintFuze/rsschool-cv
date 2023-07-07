@@ -341,6 +341,14 @@ body .main-text {
   font-size: 25px;
   font-weight: 600;
 }
+.footer .footer-name a {
+  text-transform: uppercase;
+  color: #0075FF;
+  transition: 0.2s;
+}
+.footer .footer-name a:hover {
+  color: #fff;
+}
 .footer .footer-rsschool-icon .rsschool-icon {
   width: 100px;
 }/*# sourceMappingURL=style.css.map */
