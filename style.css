@@ -1,0 +1,838 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0C0C0E;
+  height: 90px;
+}
+header .HeaderTextLogo h1 {
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+  width: 294px;
+  height: 50px;
+  margin-left: 20px;
+}
+header .HeaderTextLogo h1 a {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.2s;
+}
+header .HeaderTextLogo h1 a:hover {
+  color: #BB945F;
+  text-decoration: underline;
+}
+header .header-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-wrapper .navigation-wrapper {
+  height: 50px;
+  display: flex;
+}
+header .header-wrapper .navigation-wrapper nav {
+  display: flex;
+  align-items: flex-start;
+  height: 50px;
+  gap: 30px;
+}
+header .header-wrapper .navigation-wrapper nav ul {
+  list-style-type: none;
+  display: flex;
+}
+header .header-wrapper .navigation-wrapper nav ul li a {
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: 0.1s;
+}
+header .header-wrapper .navigation-wrapper nav ul li a:hover {
+  color: #BB945F;
+  text-decoration: underline;
+}
+header .header-wrapper .navigation-wrapper .aHeaderImageWrapper {
+  margin: 0 22px 0 40px;
+}
+header .header-wrapper .navigation-wrapper .aHeaderImageWrapper .aHeaderImage img {
+  margin-top: 10px;
+}
+
+.SectionColorWrapper {
+  background: #0C0C0E;
+}
+
+main .SectionWrapper {
+  width: 1440px;
+  display: grid;
+}
+main .SectionWrapper .HeaderWrapper {
+  margin: 0 auto;
+}
+main .SectionWrapper .HeaderWrapper .MainSectionHeader {
+  height: 61px;
+  margin-top: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  position: relative;
+  display: inline-block;
+}
+main .SectionWrapper .HeaderWrapper .MainSectionHeader::after {
+  content: "";
+  position: absolute;
+  background: #0C0C0E;
+  left: 29px;
+  bottom: 0;
+  width: 50px;
+  height: 1px;
+}
+main .SectionDescription {
+  margin-top: 40px;
+}
+main .SectionDescription p {
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+main #Welcome {
+  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-image: url("./images/Welcome.png");
+}
+main #Welcome .WelcomeWrapper {
+  position: absolute;
+  background: #0C0C0E;
+  display: flex;
+  width: 520px;
+  height: 150px;
+  padding: 35px 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+}
+main #Welcome .WelcomeWrapper .WelcomeText {
+  color: #FFF;
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 125% */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+main #About {
+  height: 837px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main #About .Slider .SliderImagesWrapper {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+main #About .Slider .PaginationWrapper {
+  margin-top: 40px;
+}
+main #About .Slider .PaginationWrapper .CarouselPagination {
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  width: 68px;
+}
+main #About .Slider .PaginationWrapper .CarouselPagination .Circle {
+  width: 16px;
+  height: 16px;
+  background: #0C0C0E;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+main #About .Slider .PaginationWrapper .CarouselPagination .Circle.ActivePagination {
+  background: #BB945F;
+}
+main #About .Slider .PaginationWrapper .CarouselPagination .Circle:hover {
+  background: #BB945F;
+}
+main #About .Slider .PaginationWrapper .CarouselPagination .Circle a {
+  position: absolute;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  margin: -5px;
+}
+main #Favorites {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main #Favorites .SectionWrapper .HeaderWrapper .MainSectionHeader::after {
+  left: 56px;
+}
+main #Favorites .SeasonsDescription {
+  display: flex;
+  margin: 40px 0 0 20px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main #Favorites .SeasonsWrapper {
+  margin: 40px 0 0 20px;
+  display: flex;
+  gap: 90px;
+}
+main #Favorites .SeasonsWrapper .SeasonInput input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #0C0C0E;
+  position: relative;
+  top: 3px;
+  margin-right: 22px;
+  transition: 0.1s;
+}
+main #Favorites .SeasonsWrapper .SeasonInput input:checked {
+  border: 6px solid black;
+}
+main #Favorites .SeasonsWrapper .SeasonInput input:hover {
+  border: 6px solid #BB945F;
+  cursor: pointer;
+}
+main #Favorites .SeasonsWrapper .SeasonInput label {
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+main #Favorites .BooksWrapper {
+  max-width: 1440px;
+  margin: 40px 20px 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 220px;
+       column-gap: 220px;
+  row-gap: 40px;
+}
+main #Favorites .BooksWrapper .Book {
+  width: 590px;
+  height: 555px;
+}
+main #Favorites .BooksWrapper .Book .BookMain {
+  border: 1px solid #0C0C0E;
+  width: 550px;
+  height: 555px;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper {
+  height: 555px;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookCategory {
+  margin: 15px 0 0 20px;
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookCategoryLine {
+  width: 60px;
+  height: 1px;
+  background: #BB945F;
+  margin-left: 20px;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookName {
+  margin: 20px 0 0 20px;
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 266.667% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookAuthor {
+  margin-left: 20px;
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookDescription {
+  width: 357px;
+  margin: 20px 0 0 20px;
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookButton button {
+  cursor: pointer;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 15px 0 0 20px;
+  width: 75px;
+  height: 30px;
+  border: 1px solid #0C0C0E;
+  background: #FFF;
+  border-radius: 2px;
+  transition: 0.1s;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookButton button:hover {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookButton button:disabled {
+  content: "Own";
+  color: #BB945F;
+  border: 1px solid #BB945F;
+  cursor: not-allowed;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookButton button:disabled:hover {
+  background: #fff;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookImage {
+  position: relative;
+  width: 200px;
+  top: -285px;
+  left: 389px;
+}
+main #Favorites .BooksWrapper .Book .BookMain .BookMainWrapper .BookImage img {
+  width: 200px;
+  height: 300px;
+}
+main #CoffeShop {
+  max-width: 1440px;
+  height: 841px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+main #CoffeShop .SectionWrapper .HeaderWrapper .MainSectionHeader::after {
+  left: 86px;
+}
+main #CoffeShop .SectionDescription p {
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 200% */
+  letter-spacing: 2px;
+}
+main #CoffeShop .MenuWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px 20px 20px;
+}
+main #CoffeShop .MenuWrapper .CoffeTea {
+  width: 438px;
+  height: 520px;
+}
+main #CoffeShop .MenuWrapper .CoffeTea .CoffeTeaName {
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #CoffeShop .MenuWrapper .CoffeTea .CoffeTeaMenuItem {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+main #CoffeShop .MenuWrapper .CoffeTea .CoffeTeaMenuItem .MenuItemName {
+  width: 199px;
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #CoffeShop .MenuWrapper .CoffeTea .CoffeTeaMenuItem .MenuItemLine {
+  width: 100px;
+  height: 1px;
+  background: #BB945F;
+}
+main #CoffeShop .MenuWrapper .CoffeTea .CoffeTeaMenuItem .MenuItemPrice {
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+main #CoffeShop .MenuWrapper .Desserts {
+  width: 482px;
+  height: 520px;
+}
+main #CoffeShop .MenuWrapper .Desserts .DessertsName {
+  color: #BB945F;
+  font-family: Forum;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  text-align: end;
+}
+main #CoffeShop .MenuWrapper .Desserts .DessertsMenuItem {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 60px;
+}
+main #CoffeShop .MenuWrapper .Desserts .DessertsMenuItem .MenuItemName {
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #CoffeShop .MenuWrapper .Desserts .DessertsMenuItem .MenuItemLine {
+  width: 100px;
+  height: 1px;
+  background: #BB945F;
+}
+main #CoffeShop .MenuWrapper .Desserts .DessertsMenuItem .MenuItemPrice {
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+main #Contacts {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main #Contacts .SectionWrapper .HeaderWrapper .MainSectionHeader::after {
+  left: 95px;
+}
+main #Contacts .ContactsWrapper {
+  margin: 40px 20px 0 20px;
+  height: 414px;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 201px;
+}
+main #Contacts .ContactsWrapper .ContactsInfo {
+  width: 505px;
+  height: 380px;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsinquiriesHeader {
+  display: flex;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsDescription {
+  display: flex;
+  margin-top: 20px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsDescription.Main {
+  margin-top: 40px;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsDescription a {
+  text-decoration: none;
+  color: #0C0C0E;
+  transition: 0.2s;
+  margin-left: 8px;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsDescription a:hover {
+  color: #BB945F;
+}
+main #Contacts .ContactsWrapper .ContactsInfo .ContactsStaffHeader {
+  display: flex;
+  margin-top: 40px;
+  color: #0C0C0E;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+main #LibraryCard {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+main #LibraryCard .SectionWrapper .HeaderWrapper .MainSectionHeader::after {
+  left: 161px;
+}
+main #LibraryCard .LibraryCardWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px 0 20px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard {
+  width: 600px;
+  height: 453px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .LibraryHeader {
+  color: #0C0C0E;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper {
+  margin-top: 30px;
+  border: 3px solid #BB945F;
+  background: #FFF;
+  width: 595px;
+  height: 380px;
+  box-shadow: 1px 1px 3px #525252;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .InputCard {
+  margin: 18px;
+  width: 560px;
+  height: 272px;
+  background: #BB945F;
+  padding: 1px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .InputCard .InputCardHeader {
+  margin: 17px 0 0 17px;
+  color: #0C0C0E;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.6px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .InputCard .InputCardItems .InputItem {
+  margin: 20px 0 0 15px;
+  width: 520px;
+  height: 66px;
+  border-radius: 10px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .InputCard .InputCardItems .InputItem::-moz-placeholder {
+  color: #8E8E8E;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 166.667% */
+  letter-spacing: 0.6px;
+  padding-left: 20px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .InputCard .InputCardItems .InputItem::placeholder {
+  color: #8E8E8E;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  /* 166.667% */
+  letter-spacing: 0.6px;
+  padding-left: 20px;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .CheckCard {
+  display: flex;
+  justify-content: center;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .CheckCard .CheckCardButton {
+  width: 242px;
+  height: 44px;
+  display: inline-flex;
+  padding: 10px 38px;
+  align-items: flex-end;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  color: #0C0C0E;
+  background-color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+main #LibraryCard .LibraryCardWrapper .FindCard .InputCardWrapper .CheckCard .CheckCardButton:hover {
+  border: 1px solid #BB945F;
+  background-color: #BB945F;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard {
+  text-align: end;
+  width: 456px;
+  height: 253px;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard .LibraryHeader {
+  display: inline;
+  text-align: end;
+  color: #000;
+  text-align: center;
+  font-family: Forum;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard .LibraryDescription {
+  width: 456px;
+  margin-top: 35px;
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.4px;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard .LibraryButtons {
+  margin-top: 35px;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard .LibraryButtons button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 75px;
+  height: 30px;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 1px solid #0C0C0E;
+  margin-left: 17px;
+  color: #0C0C0E;
+  background-color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+main #LibraryCard .LibraryCardWrapper .GetCard .LibraryButtons button:hover {
+  border: 1px solid #BB945F;
+  background-color: #BB945F;
+}
+
+footer {
+  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 250px;
+  background: #0C0C0E;
+  color: #fff;
+}
+footer .FooterWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .FooterWrapper .AddressSocialsWrapper {
+  padding: 20px 0 0 20px;
+  width: 229px;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Address {
+  width: 229px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Address a {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.2s;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Address a:hover {
+  color: #BB945F;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Socials {
+  margin-top: 18px;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Socials ul {
+  display: flex;
+}
+footer .FooterWrapper .AddressSocialsWrapper .Socials ul li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+footer .FooterWrapper .WorkTimeWrapper .MonFri {
+  margin: 20px 20px 0 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+footer .FooterWrapper .WorkTimeWrapper .SatSun {
+  margin: 10px 20px 0 0;
+  color: #FFF;
+  text-align: right;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+footer .FooterLine {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1400px;
+  height: 1px;
+  background: #FFF;
+}
+footer .OtherInfo {
+  display: flex;
+  justify-content: space-between;
+  margin: 44px 20px;
+  color: #FFF;
+  height: 22px;
+}
+footer .OtherInfo .Year {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+footer .OtherInfo .SchoolName {
+  margin-left: 45px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+footer .OtherInfo .SchoolName a {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.2s;
+}
+footer .OtherInfo .SchoolName a:hover {
+  color: #BB945F;
+}
+footer .OtherInfo .Username {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+footer .OtherInfo .Username a {
+  color: #FFF;
+  text-decoration: none;
+  transition: 0.2s;
+}
+footer .OtherInfo .Username a:hover {
+  color: #BB945F;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="style.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Library</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="HeaderTextLogo">
+          <h1><a href="">Brooklyn Public Library</a></h1>
+        </div>
+        <div class="navigation-wrapper">
+          <nav>
+            <ul>
+              <li><a class="aHeaderAbout" href="#About">About</a></li>
+              <li><a class="aHeaderFavorites" href="#Favorites">Favorites</a></li>
+              <li><a class="aHeaderCoffeShop" href="#CoffeShop">Coffee shop</a></li>
+              <li><a class="aHeaderContacts" href="#Contacts">Contacts</a></li>
+              <li><a class="aHeaderLibraryCard" href="#LibraryCard">Library Card</a></li>
+            </ul>
+          </nav>
+          <div class="aHeaderImageWrapper">
+            <a class="aHeaderImage" href=""
+              ><img src="./images/icon_profile.png" alt="icon profile"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="SectionColorWrapper">
+        <section id="Welcome">
+          <div class="WelcomeWrapper">
+            <h2 class="WelcomeText">
+              Welcome<br >
+              to the Brooklyn<br >Library
+            </h2>
+          </div>
+        </section>
+      </div>
+
+      <section id="About">
+        <div class="SectionWrapper">
+          <div class="HeaderWrapper">
+            <h2 class="MainSectionHeader">About</h2>
+          </div>
+        </div>
+        <div class="SectionDescription">
+          <p>
+            The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop
+            inside
+          </p>
+        </div>
+
+        <div class="Slider">
+          <div class="SliderImagesWrapper">
+            <img src="./images/slider-images/image-1.png" alt="first image" >
+            <img src="./images/slider-images/image-2.png" alt="second image" >
+            <img src="./images/slider-images/image-3.png" alt="third image" >
+          </div>
+          <div class="PaginationWrapper">
+            <div class="CarouselPagination">
+              <div class="Circle ActivePagination"><a href="#"></a></div>
+              <div class="Circle"><a href="#"></a></div>
+              <div class="Circle"><a href="#"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Favorites">
+        <div class="SectionWrapper">
+          <div class="HeaderWrapper">
+            <h2 class="MainSectionHeader">Favorites</h2>
+          </div>
+        </div>
+        <div class="SeasonsDescription">
+          <p>Pick favorites of season</p>
+        </div>
+        <div class="SeasonsWrapper">
+          <div class="SeasonInput">
+            <input type="radio" name="Seasons" value="Winter" id="Winter" checked ><label for="Winter"
+              >Winter</label
+            >
+          </div>
+          <div class="SeasonInput">
+            <input type="radio" name="Seasons" value="Spring" id="Spring"><label for="Spring">Spring</label>
+          </div>
+          <div class="SeasonInput">
+            <input type="radio" name="Seasons" value="Summer" id="Summer"><label for="Summer">Summer</label>
+          </div>
+          <div class="SeasonInput">
+            <input type="radio" name="Seasons" value="Autumn" id="Autumn"><label for="Autumn">Autumn</label>
+          </div>
+        </div>
+
+        <div class="BooksWrapper">
+          <div class="Book">
+            <div class="BookMain">
+              <div class="BookMainWrapper">
+                <div class="BookCategory">Staff Picks</div>
+                <div class="BookCategoryLine"></div>
+                <div class="BookName">The Book Eaters</div>
+                <div class="BookAuthor">By Sunyi Dean</div>
+                <div class="BookDescription">
+                  An unusual sci-fi story about a book eater woman who tries desperately to save her
+                  dangerous mind-eater son from tradition and certain death. Complete with
+                  dysfunctional family values, light Sapphic romance, and a strong, complex
+                  protagonist. Not for the faint of heart.
+                </div>
+                <div class="BookButton"><button>Buy</button></div>
+                <div class="BookImage"><img src="./images/books/eater.png" alt="" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="Book">
+            <div class="BookMain">
+              <div class="BookMainWrapper">
+                <div class="BookCategory">Staff Picks</div>
+                <div class="BookCategoryLine"></div>
+                <div class="BookName">Cackle</div>
+                <div class="BookAuthor">By Rachel Harrison</div>
+                <div class="BookDescription">
+                  Are your Halloween movies of choice The Witches of Eastwick and Practical Magic?
+                  Look no further than here - where a woman recovering from a breakup moves to a
+                  quaint town in upstate New York and befriends a beautiful witch.
+                  <p>&nbsp;</p>
+                </div>
+                <div class="BookButton"><button>Buy</button></div>
+                <div class="BookImage"><img src="./images/books/cackle.png" alt="" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="Book">
+            <div class="BookMain">
+              <div class="BookMainWrapper">
+                <div class="BookCategory">Staff Picks</div>
+                <div class="BookCategoryLine"></div>
+                <div class="BookName">Dante: Poet of the Secular World</div>
+                <div class="BookAuthor">By Erich Auerbach</div>
+                <div class="BookDescription">
+                  Auerbach's engaging book places the 'Comedy' within the tradition of epic,
+                  tragedy, and philosophy in general, arguing for Dante's uniqueness as one who
+                  raised the individual and his drama of soul into something of divine
+                  significance—an inspired introduction to Dante's main themes.
+                </div>
+                <div class="BookButton"><button>Buy</button></div>
+                <div class="BookImage"><img src="./images/books/secular.png" alt="" ></div>
+              </div>
+            </div>
+          </div>
+          <div class="Book">
+            <div class="BookMain">
+              <div class="BookMainWrapper">
+                <div class="BookCategory">Staff Picks</div>
+                <div class="BookCategoryLine"></div>
+                <div class="BookName">The Last Queen</div>
+                <div class="BookAuthor">By Clive Irving</div>
+                <div class="BookDescription">
+                  A timely and revelatory new biography of Queen Elizabeth (and her family)
+                  exploring how the Windsors have evolved and thrived as the modern world has
+                  changed around them.
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                </div>
+                <div class="BookButton"><button disabled>Own</button></div>
+                <div class="BookImage"><img src="./images/books/last.png" alt="" ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="CoffeShop">
+        <div class="SectionWrapper">
+          <div class="HeaderWrapper">
+            <h2 class="MainSectionHeader">Coffee shop</h2>
+          </div>
+        </div>
+        <div class="SectionDescription">
+          <p>
+            In our library, we have of cozy coffee shop, welcoming in customers with frothy
+            cappuccinos and friendly conversation. <br >You can get a favorite book and read in
+            coffee shop. our barista to cook you best coffee, and also you can try desserts
+            <br >from bakery.
+          </p>
+        </div>
+
+        <div class="MenuWrapper">
+          <div class="CoffeTea">
+            <div class="CoffeTeaName">Coffee & Tea</div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">Cold Brew Coffee</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$3</div>
+            </div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">French Press Pot</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$5</div>
+            </div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">Espresso</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$2</div>
+            </div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">Cappuccino</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$4</div>
+            </div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">Hot tea</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$2</div>
+            </div>
+            <div class="CoffeTeaMenuItem">
+              <div class="MenuItemName">Cold tea</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$2</div>
+            </div>
+          </div>
+          <div class="Desserts">
+            <div class="DessertsName">Desserts & Cakes</div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Forest Gateau</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$16</div>
+            </div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Blue Moon</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$16</div>
+            </div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Truffle Cake</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$15</div>
+            </div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Chocolate Cake</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$18</div>
+            </div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Poet's Dream Cake</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$16</div>
+            </div>
+            <div class="DessertsMenuItem">
+              <div class="MenuItemName">Pineapple Cake</div>
+              <div class="MenuItemLine"></div>
+              <div class="MenuItemPrice">$14</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contacts">
+        <div class="SectionWrapper">
+          <div class="HeaderWrapper">
+            <h2 class="MainSectionHeader">Our Contacts</h2>
+          </div>
+        </div>
+        <div class="ContactsWrapper">
+          <div class="ContactsInfo">
+            <span class="ContactsinquiriesHeader">For all Library inquiries:</span>
+            <span class="ContactsDescription Main"
+              >Please call <a href="tel:(617)730-2370">(617) 730-2370</a></span
+            >
+            <span class="ContactsDescription"
+              >For TTY service, please call <a href="tel:(617)730-2370">(617) 730-2370</a></span
+            >
+            <span class="ContactsDescription"
+              >Putterham Library: <a href="tel:(617)730-2385">(617) 730-2385</a></span
+            >
+            <span class="ContactsStaffHeader">Senior Staff</span>
+            <span class="ContactsDescription"
+              >Library Director:
+              <b><a href="mailto:AmandaHirst@gmail.com">Amanda Hirst</a></b></span
+            >
+          </div>
+          <div class="ContactsMap">
+            <img src="./images/Map.png" alt="Map" >
+          </div>
+        </div>
+      </section>
+
+      <section id="LibraryCard">
+        <div class="SectionWrapper">
+          <div class="HeaderWrapper">
+            <h2 class="MainSectionHeader">Digital Library Cards</h2>
+          </div>
+        </div>
+        <div class="LibraryCardWrapper">
+          <div class="FindCard">
+            <div class="LibraryHeader">Find your Library card</div>
+            <div class="InputCardWrapper">
+              <div class="InputCard">
+                <div class="InputCardHeader">Brooklyn Public Library</div>
+                <div class="InputCardItems">
+                  <input class="InputItem" type="text" placeholder="Reader's name " >
+                  <input class="InputItem" type="text" placeholder="Card number" >
+                </div>
+              </div>
+              <div class="CheckCard">
+                <button class="CheckCardButton">Check the card</button>
+              </div>
+            </div>
+          </div>
+          <div class="GetCard">
+            <div class="LibraryHeader">Get a reader card</div>
+            <div class="LibraryDescription">
+              You will be able to see a reader card after <br >logging into account or you can
+              register a new <br >account
+            </div>
+            <div class="LibraryButtons">
+              <button>Sign In</button>
+              <button>Log In</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="SectionColorWrapper">
+      <footer>
+        <div class="FooterWrapper">
+          <div class="AddressSocialsWrapper">
+            <div class="Address">
+              <a
+                href="https://www.google.com/maps?q=286+Cadman+Plaza,+New+York,+NY+11238,+United+States&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjOiM688LaAAxWNKBAIHTvWBjIQ_AUoAXoECAEQAw"
+              >
+                286 Cadman Plaza, New York, NY 11238, United States</a
+              >
+            </div>
+            <div class="Socials">
+              <ul>
+                <li>
+                  <a href="https://x.com"><img src="./images/twitter.png" alt="Twitter" ></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com"
+                    ><img src="./images/instagram.png" alt="Instagram"
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://facebook.com"
+                    ><img src="./images/facebook.png" alt="Facebook"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="WorkTimeWrapper">
+            <div class="MonFri">
+              Mon - Fri<br >
+              08:00 am - 07:00 pm
+            </div>
+            <div class="SatSun">
+              Sat - Sun<br >
+              10:00 am - 06:00 pm
+            </div>
+          </div>
+        </div>
+        <div class="FooterLine"></div>
+
+        <div class="OtherInfo">
+          <div class="Year">2023</div>
+          <div class="SchoolName">
+            <a href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
+          </div>
+          <div class="Username"><a href="https://github.com/MintFuze">MintFuze</a></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

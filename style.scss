@@ -1,0 +1,1087 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #0C0C0E;
+  height: 90px;
+
+  .HeaderTextLogo h1 {
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0.6px;
+    width: 294px;
+    height: 50px;
+    margin-left: 20px;
+
+    a {
+      color: #FFF;
+      text-decoration: none;
+      transition: .2s;
+
+      &:hover {
+        color: #BB945F;
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  .header-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    .navigation-wrapper {
+      height: 50px;
+      display: flex;
+
+      nav {
+
+        display: flex;
+        align-items: flex-start;
+        height: 50px;
+        gap: 30px;
+
+        ul {
+          list-style-type: none;
+          display: flex;
+
+
+          li {
+
+            a {
+              color: #FFF;
+              font-family: 'Inter', sans-serif;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 50px;
+              text-decoration: none;
+              margin-left: 30px;
+              transition: .1s;
+
+              &:hover {
+                color: #BB945F;
+                text-decoration: underline;
+              }
+
+
+
+            }
+          }
+        }
+      }
+
+      .aHeaderImageWrapper {
+        margin: 0 22px 0 40px;
+
+        .aHeaderImage {
+          img {
+            margin-top: 10px;
+          }
+        }
+      }
+
+
+    }
+
+
+
+
+  }
+}
+
+.SectionColorWrapper {
+  background: #0C0C0E;
+}
+
+main {
+
+
+
+
+  .SectionWrapper {
+    width: 1440px;
+    display: grid;
+
+    .HeaderWrapper {
+
+      margin: 0 auto;
+
+      .MainSectionHeader {
+
+        height: 61px;
+        margin-top: 20px;
+        text-align: center;
+        flex-shrink: 0;
+        color: #0C0C0E;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 2px;
+        text-transform: capitalize;
+        position: relative;
+        display: inline-block;
+
+        &::after {
+
+          content: '';
+          position: absolute;
+          background: #0C0C0E;
+          left: 29px;
+          bottom: 0;
+          width: 50px;
+          height: 1px;
+        }
+      }
+    }
+  }
+
+  .SectionDescription {
+    margin-top: 40px;
+
+    p {
+      color: #0C0C0E;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px;
+    }
+  }
+
+  #Welcome {
+    height: 600px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url("./images/Welcome.png");
+
+    .WelcomeWrapper {
+      position: absolute;
+      background: #0C0C0E;
+      display: flex;
+      width: 520px;
+      height: 150px;
+      padding: 35px 40px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 220px;
+
+      .WelcomeText {
+
+
+        color: #FFF;
+        text-align: center;
+        font-family: Forum;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 125% */
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+
+  #About {
+    height: 837px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .Slider {
+      .SliderImagesWrapper {
+        margin-top: 20px;
+        align-items: center;
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+      }
+
+      .PaginationWrapper {
+        margin-top: 40px;
+
+
+        .CarouselPagination {
+          display: flex;
+          gap: 10px;
+          margin: 0 auto;
+          width: 68px;
+
+          .Circle {
+            width: 16px;
+            height: 16px;
+            background: #0C0C0E;
+            border-radius: 50%;
+            transition: .2s;
+
+            &.ActivePagination {
+              background: #BB945F;
+            }
+
+            &:hover {
+              background: #BB945F;
+            }
+
+            a {
+              position: absolute;
+              display: inline-block;
+              width: 26px;
+              height: 26px;
+              margin: -5px;
+
+
+
+            }
+
+
+
+          }
+
+
+        }
+      }
+    }
+
+  }
+
+  #Favorites {
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+    .SectionWrapper {
+
+      .HeaderWrapper {
+        .MainSectionHeader {
+
+          &::after {
+
+            left: 56px;
+          }
+        }
+      }
+    }
+
+    .SeasonsDescription {
+      display: flex;
+      margin: 40px 0 0 20px;
+      color: #0C0C0E;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .SeasonsWrapper {
+      margin: 40px 0 0 20px;
+      display: flex;
+      gap: 90px;
+
+      .SeasonInput {
+        input {
+          appearance: none;
+          border-radius: 50%;
+          width: 17px;
+          height: 17px;
+          border: 2px solid #0C0C0E;
+          position: relative;
+          top: 3px;
+          margin-right: 22px;
+          transition: .1s;
+
+          &:checked {
+            border: 6px solid black;
+          }
+
+          &:hover {
+            border: 6px solid #BB945F;
+            cursor: pointer;
+          }
+
+        }
+
+        label {
+          color: #0C0C0E;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+
+        }
+      }
+
+    }
+
+    .BooksWrapper {
+      max-width: 1440px;
+      margin: 40px 20px 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 220px;
+      row-gap: 40px;
+
+
+      .Book {
+        width: 590px;
+        height: 555px;
+
+        .BookMain {
+          border: 1px solid #0C0C0E;
+          width: 550px;
+          height: 555px;
+
+
+          .BookMainWrapper {
+            height: 555px;
+
+            .BookCategory {
+              margin: 15px 0 0 20px;
+              color: #0C0C0E;
+              font-family: Forum;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 40px;
+              letter-spacing: 2px;
+              text-transform: capitalize;
+
+            }
+
+
+            .BookCategoryLine {
+              width: 60px;
+              height: 1px;
+              background: #BB945F;
+              margin-left: 20px;
+            }
+
+            .BookName {
+              margin: 20px 0 0 20px;
+              color: #0C0C0E;
+              font-family: Inter;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px;
+              /* 266.667% */
+              letter-spacing: 2px;
+              text-transform: uppercase;
+            }
+
+            .BookAuthor {
+              margin-left: 20px;
+              color: #0C0C0E;
+              font-family: Inter;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 2px;
+              text-transform: capitalize;
+            }
+
+            .BookDescription {
+              width: 357px;
+              margin: 20px 0 0 20px;
+              color: #0C0C0E;
+              font-family: Inter;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 40px;
+              letter-spacing: 2px;
+              text-transform: capitalize;
+            }
+
+            .BookButton {
+
+              button {
+                cursor: pointer;
+                color: #0C0C0E;
+                text-align: center;
+                font-family: Inter;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1px;
+
+                margin: 15px 0 0 20px;
+                width: 75px;
+                height: 30px;
+                border: 1px solid #0C0C0E;
+                background: #FFF;
+                border-radius: 2px;
+                transition: .1s;
+
+                &:hover {
+                  border-radius: 2px;
+                  border: 1px solid #BB945F;
+                  background: #BB945F;
+                }
+
+                &:disabled {
+                  content: "Own";
+                  color: #BB945F;
+                  border: 1px solid #BB945F;
+                  cursor: not-allowed;
+
+                  &:hover {
+                    background: #fff;
+                  }
+                }
+              }
+            }
+
+
+            .BookImage {
+              position: relative;
+              width: 200px;
+              top: -285px;
+              left: 389px;
+
+              img {
+                width: 200px;
+                height: 300px;
+
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+
+  }
+
+  #CoffeShop {
+    max-width: 1440px;
+    height: 841px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .SectionWrapper {
+
+      .HeaderWrapper {
+        .MainSectionHeader {
+
+          &::after {
+
+            left: 86px;
+          }
+        }
+      }
+    }
+
+    .SectionDescription {
+
+
+      p {
+        color: #0C0C0E;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        /* 200% */
+        letter-spacing: 2px;
+
+      }
+    }
+
+    .MenuWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 20px 20px 20px;
+
+      .CoffeTea {
+        width: 438px;
+        height: 520px;
+
+        .CoffeTeaName {
+          color: #BB945F;
+          font-family: Forum;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 40px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+
+
+        }
+
+        .CoffeTeaMenuItem {
+          margin-top: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+
+          .MenuItemName {
+            width: 199px;
+            color: #0C0C0E;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+
+          }
+
+          .MenuItemLine {
+            width: 100px;
+            height: 1px;
+            background: #BB945F;
+          }
+
+          .MenuItemPrice {
+            color: #0C0C0E;
+            font-family: Forum;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            text-transform: capitalize;
+          }
+        }
+
+      }
+
+      .Desserts {
+        width: 482px;
+        height: 520px;
+
+        .DessertsName {
+          color: #BB945F;
+          font-family: Forum;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 40px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+          text-align: end;
+        }
+
+        .DessertsMenuItem {
+          margin-top: 40px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          gap: 60px;
+
+          .MenuItemName {
+            color: #0C0C0E;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+
+          }
+
+          .MenuItemLine {
+            width: 100px;
+            height: 1px;
+            background: #BB945F;
+          }
+
+          .MenuItemPrice {
+            color: #0C0C0E;
+            font-family: Forum;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 1px;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+
+  #Contacts {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .SectionWrapper {
+
+      .HeaderWrapper {
+        .MainSectionHeader {
+
+          &::after {
+
+            left: 95px;
+          }
+        }
+      }
+    }
+
+    .ContactsWrapper {
+      margin: 40px 20px 0 20px;
+      height: 414px;
+      display: flex;
+      justify-content: space-between;
+      row-gap: 201px;
+
+      .ContactsInfo {
+        width: 505px;
+        height: 380px;
+
+        .ContactsinquiriesHeader {
+          display: flex;
+          color: #0C0C0E;
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+        }
+
+        .ContactsDescription {
+          display: flex;
+          margin-top: 20px;
+          color: #0C0C0E;
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 40px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+
+          &.Main {
+            margin-top: 40px;
+          }
+
+          a {
+            text-decoration: none;
+            color: #0C0C0E;
+            transition: .2s;
+
+            &:hover {
+              color: #BB945F;
+            }
+
+            margin-left: 8px;
+          }
+
+
+
+        }
+
+        .ContactsStaffHeader {
+          display: flex;
+          margin-top: 40px;
+          color: #0C0C0E;
+          text-align: center;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: 2px;
+          text-transform: capitalize;
+        }
+      }
+
+
+    }
+
+
+  }
+
+  #LibraryCard {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    .SectionWrapper {
+
+      .HeaderWrapper {
+        .MainSectionHeader {
+
+          &::after {
+
+            left: 161px;
+          }
+        }
+      }
+    }
+
+    .LibraryCardWrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 40px 20px 0 20px;
+
+      .FindCard {
+        width: 600px;
+        height: 453px;
+
+        .LibraryHeader {
+          color: #0C0C0E;
+          font-family: Inter;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.6px;
+          text-align: center;
+        }
+
+        .InputCardWrapper {
+          margin-top: 30px;
+          border: 3px solid #BB945F;
+          background: #FFF;
+          width: 595px;
+          height: 380px;
+          box-shadow: 1px 1px 3px #525252;
+
+          .InputCard {
+            margin: 18px;
+            width: 560px;
+            height: 272px;
+            background: #BB945F;
+            padding: 1px;
+
+            .InputCardHeader {
+              margin: 17px 0 0 17px;
+              color: #0C0C0E;
+              font-family: Forum;
+              font-size: 30px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 50px;
+              letter-spacing: 0.6px;
+
+            }
+
+            .InputCardItems {
+
+
+              .InputItem {
+                margin: 20px 0 0 15px;
+                width: 520px;
+                height: 66px;
+                border-radius: 10px;
+
+                &::placeholder {
+
+                  color: #8E8E8E;
+                  font-family: Forum;
+                  font-size: 30px;
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 50px;
+                  /* 166.667% */
+                  letter-spacing: 0.6px;
+                  padding-left: 20px;
+                }
+              }
+            }
+
+
+          }
+
+          .CheckCard {
+            display: flex;
+            justify-content: center;
+
+            .CheckCardButton {
+              width: 242px;
+              height: 44px;
+              display: inline-flex;
+              padding: 10px 38px;
+              align-items: flex-end;
+              border-radius: 2px;
+              border: 1px solid #0C0C0E;
+              color: #0C0C0E;
+              background-color: #fff;
+              text-align: center;
+              font-family: Inter;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              letter-spacing: 1px;
+              cursor: pointer;
+              transition: .2s;
+
+              &:hover {
+                border: 1px solid #BB945F;
+                background-color: #BB945F;
+
+              }
+            }
+          }
+
+        }
+
+      }
+
+
+
+
+      .GetCard {
+        text-align: end;
+        width: 456px;
+        height: 253px;
+
+        .LibraryHeader {
+          display: inline;
+          text-align: end;
+          color: #000;
+          text-align: center;
+          font-family: Forum;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.6px;
+        }
+
+        .LibraryDescription {
+          width: 456px;
+          margin-top: 35px;
+          color: #000;
+          text-align: right;
+          font-family: Inter;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 40px;
+          letter-spacing: 0.4px;
+        }
+
+        .LibraryButtons {
+          margin-top: 35px;
+
+          button {
+            appearance: none;
+
+            width: 75px;
+            height: 30px;
+            padding: 10px 0px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 2px;
+            border: 1px solid #0C0C0E;
+            margin-left: 17px;
+
+            color: #0C0C0E;
+            background-color: #FFF;
+            text-align: center;
+            font-family: Inter;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 1px;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+              border: 1px solid #BB945F;
+              background-color: #BB945F;
+
+
+            }
+
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+footer {
+  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  height: 250px;
+  background: #0C0C0E;
+  color: #fff;
+
+  .FooterWrapper {
+    display: flex;
+    justify-content: space-between;
+
+
+    .AddressSocialsWrapper {
+      padding: 20px 0 0 20px;
+      width: 229px;
+
+      .Address {
+        width: 229px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
+        a {
+          color: #FFF;
+          text-decoration: none;
+          transition: .2s;
+
+          &:hover {
+            color: #BB945F;
+
+          }
+        }
+      }
+
+      .Socials {
+        margin-top: 18px;
+
+        ul {
+          display: flex;
+
+          li {
+            list-style-type: none;
+            margin-right: 15px;
+          }
+        }
+
+      }
+    }
+
+    .WorkTimeWrapper {
+      .MonFri {
+        margin: 20px 20px 0 0;
+        color: #FFF;
+        text-align: right;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+      .SatSun {
+        margin: 10px 20px 0 0;
+        color: #FFF;
+        text-align: right;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .FooterLine {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1400px;
+    height: 1px;
+    background: #FFF;
+
+
+  }
+
+  .OtherInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 20px;
+    color: #FFF;
+    height: 22px;
+
+
+    .Year {
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 2px;
+
+    }
+
+    .SchoolName {
+      margin-left: 45px;
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 2px;
+
+      a {
+        color: #FFF;
+        text-decoration: none;
+        transition: .2s;
+
+        &:hover {
+          color: #BB945F;
+
+        }
+      }
+    }
+
+    .Username {
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 2px;
+
+      a {
+        color: #FFF;
+        text-decoration: none;
+        transition: .2s;
+
+        &:hover {
+          color: #BB945F;
+
+        }
+      }
+    }
+  }
+}
